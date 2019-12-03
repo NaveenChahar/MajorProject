@@ -1,0 +1,16 @@
+
+.wrapper{
+    display: flex;
+    justify-content: space-between
+}
+.menuButton{
+    flex-wrap: wrap;
+    
+}
+.link{
+    color:white!important;
+    text-decoration: none
+}
+.title{
+    flex-wrap: wrap;
+}
