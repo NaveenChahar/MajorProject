@@ -3,6 +3,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import axios from 'axios';
 import Headercomp from '../HeaderComponent/headercomp'
+import '../signUpComponent/signup.css'
 
 export class LoginComponent extends Component {
     state={
@@ -41,12 +42,14 @@ export class LoginComponent extends Component {
                 <TextField
                  placeholder="Enter Email(College)"
                  label="Email"
+                 className="inputField"
                  onChange={this.handleChange('email')}
                 />
                 <br/>
                 <TextField
                  placeholder="Enter Password"
                  label="Password"
+                 className="inputField"
                  type="password"
                  onChange={this.handleChange('password')}
                 />

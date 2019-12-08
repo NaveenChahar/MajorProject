@@ -1,0 +1,14 @@
+.blog_div{
+    width: 55%;
+    margin: auto;
+    /* border: 1px solid black!important */
+    /* box-shadow: 1px */
+}
+
+.topic{
+    width: 100%
+}
+.dropdown{
+    width: 30%;
+    left: 0px
+}
