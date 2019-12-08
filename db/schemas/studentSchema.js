@@ -10,8 +10,9 @@ const mongoose=require("../connection");
      type:String,
      publishedArticles:[{
          id:String
-     }]
- })
+     }],
+     verified:{type:Boolean,default:false},
+ },{timestamps:true})
 
 module.exports={
     students:mongoose.model('students',students)
